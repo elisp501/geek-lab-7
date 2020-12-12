@@ -1,0 +1,50 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+  }
+
+body{
+    background-image: url(../img/fondo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#formulario{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.navbar-custom{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-agregar{
+  background-color: rgb(16, 75, 169);
+  color: white;
+  width: 530px;
+}
+
+.btn-agregar:hover{
+  background-color: rgb(7, 61, 147);
+  width: 530px;
+  color: white;
+}
+
+.footer{
+  background-color: rgb(65, 110, 163);
+}
+
+.icon-footer{
+  width: 25px;
+}
+
+.text-footer{
+  color:rgb(16, 75, 169);
+}
